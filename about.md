@@ -1,11 +1,13 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /jection/about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Paul Hammant and friends maintaining a list of **Dependency Injection containers and frameworks**, 
+delving in the history a little and categorizing the alternate sub-types. 
+Paul was active in the community some years before "Dependency Injection" was coined/popularized by Martin Fowler in [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html) 
+He had previously attempted an ill-advised numerical categorization with 
+[Inversion of Control Rocks](https://paulhammant.com/files/JDJ_2003_12_IoC_Rocks.pdf) in Java Developer Report (2003).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+ 

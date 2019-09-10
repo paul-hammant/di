@@ -13,7 +13,7 @@ language in question.
 
 In the context of Inversion of Control and Dependency Injection containers, Library vs Framework is a sliding scale.
 
-There's a famous answer to the same question on stack overflow[![](/ext.png)](https://stackoverflow.com/questions/148747/what-is-the-difference-between-a-framework-and-a-library/233765#233765))) with a terrible Japanese poem to add drama[![](/ext.png)](https://meta.stackoverflow.com/questions/345434/popular-answer-saying-that-helping-the-library-hurts-many-tears-a-japanese-poem))):
+There's a famous answer to the same question on stack overflow <a href="https://stackoverflow.com/questions/148747/what-is-the-difference-between-a-framework-and-a-library/233765#233765"><svg style="display: color=blue; inline-block; width: 1em; height: 1em;" viewbox="0 0 48 48"><path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2 0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4 0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6 6-6v-12c0-1.2-0.8-2-2-2z"></path><path d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2 0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8 0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8 2-2v-12c0-0.2 0-0.6-0.2-0.8z"></path></svg></a> with a terrible Japanese poem to add drama <a href="https://meta.stackoverflow.com/questions/345434/popular-answer-saying-that-helping-the-library-hurts-many-tears-a-japanese-poem"><svg style="display: color=blue; inline-block; width: 1em; height: 1em;" viewbox="0 0 48 48"><path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2 0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4 0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6 6-6v-12c0-1.2-0.8-2-2-2z"></path><path d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2 0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8 0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8 2-2v-12c0-0.2 0-0.6-0.2-0.8z"></path></svg></a>:
 
 ![](/148747.png)
 
@@ -48,7 +48,7 @@ design pattern (anti-pattern), but are OK with Singletons that are idiomatic to 
 ### 1994 definition in the Design Patterns book.
 
 The book "Design Patterns" was written Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides (the Gang of Four), 
-in 1994. See the Wikipedia page for the book[![](/ext.png)](https://en.wikipedia.org/wiki/Design_Patterns))). 
+in 1994. See the Wikipedia page for the book <a href="https://en.wikipedia.org/wiki/Design_Patterns"><svg style="display: color=blue; inline-block; width: 1em; height: 1em;" viewbox="0 0 48 48"><path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2 0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4 0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6 6-6v-12c0-1.2-0.8-2-2-2z"></path><path d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2 0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8 0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8 2-2v-12c0-0.2 0-0.6-0.2-0.8z"></path></svg></a>. 
 A Java example:
 
 ```java
@@ -83,7 +83,7 @@ public final class Inventory {
 
 Another anti-pattern, ServiceLocator use sits in opposition to Inversion of Control and Dependency Injection. Or
 rather Inversion of Control and Dependency Injection, coming later, sit in opposition to ServiceLocator (as well as 
-GoF Singletons) Wikipedia has a page on ServiceLocator[![](/ext.png)](https://en.wikipedia.org/wiki/Service_locator_pattern)))
+GoF Singletons) Wikipedia has a page on ServiceLocator <a href="https://en.wikipedia.org/wiki/Service_locator_pattern"><svg style="display: color=blue; inline-block; width: 1em; height: 1em;" viewbox="0 0 48 48"><path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2 0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4 0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6 6-6v-12c0-1.2-0.8-2-2-2z"></path><path d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2 0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8 0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8 2-2v-12c0-0.2 0-0.6-0.2-0.8z"></path></svg></a> 
 
 A Java example:
 
